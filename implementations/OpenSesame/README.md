@@ -10,10 +10,27 @@ Double-click on `opensesame.bat` to start OpenSesame
 
 ## Mac OS
 
+The easiest way is to install and use the most current version of OpenSesame on MacOS is to use the Anaconda/Miniconda distribution. M Make sure you have Anaconda or Miniconda installed and have access to the `conda` command. Then follow these steps:
+
+1. (Optional) Create a new virtual environment to install OpenSesame in:
+
 ```
-Anaconda installation instructions here
+conda create -n opensesame python=3.7 python
+```
+And activate this virtual environment with:
+```
+conda activate opensesame
+```
+You should now see `(opensesame)` prepended to the prompt of your terminal.
+
+2. Install OpenSesame and all its dependencies using:
+
+```
+conda install python-opensesame psychopy pysoundfile -c cogsci -c conda-forge
+pip install expyriment
 ```
 
+3. Start OpenSesame by executing the command `opensesame` in the terminal.
 
 ## Ubuntu
 
