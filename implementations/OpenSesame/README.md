@@ -26,7 +26,7 @@ You should now see `(opensesame)` prepended to the prompt of your terminal.
 2. Install OpenSesame and all its dependencies using:
 
 ```
-conda install python-opensesame psychopy pysoundfile -c cogsci -c conda-forge
+conda install python-opensesame psychopy python-sounddevice -c cogsci -c conda-forge
 pip install expyriment
 ```
 
